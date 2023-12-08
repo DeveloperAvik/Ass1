@@ -1,0 +1,152 @@
+:root {
+    --mainblack: rgba(0, 0, 0, 1);
+    --mainwhite: rgba(255, 255, 255, 1);
+}
+
+.header-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 23px;
+    padding: 16px 10px;
+    position: relative;
+    background-color: #1a187a;
+}
+
+@media (max-width: 768px) {
+    .header-top {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-top {
+        padding: 16px;
+    }
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 5%;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+    padding: 56px 5%;
+    position: relative;
+    background-color: #ffffff;
+}
+
+
+.main-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 104px 5%;
+    position: relative;
+    background-color: #0e061a;
+}
+
+:root {
+    --mainblack: rgba(0, 0, 0, 1);
+    --mainwhite: rgba(255, 255, 255, 1);
+}
+
+.main-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 104px 5%;
+    background: #0e061a;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+    min-width: 0;
+}
+
+.box {
+    width: 100%;
+    max-width: 228px;
+}
+
+.img {
+    width: 100%;
+    max-width: 46.494px;
+    height: 46.494px;
+}
+
+.text {
+    font-size: 26px;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.img-2,
+.pic,
+.pic-2,
+.img-3 {
+    width: 16px;
+    height: 16px;
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.wrapper,
+.wrapper-2 {
+    width: 100%;
+    max-width: 295.5px;
+}
+
+.text-2,
+.text-4 {
+    font-size: 16px;
+}
+
+.text-3,
+.text-5 {
+    height: 100%;
+    font-size: 14px;
+    line-height: 24px;
+}
